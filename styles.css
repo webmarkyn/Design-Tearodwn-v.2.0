@@ -487,9 +487,6 @@ a.btn--white {
     background-size: 100% 1.5px;
     background-position: center bottom 29%;
     background-origin: padding-box;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#e58980), to(#e58980));
-    background-image: linear-gradient(#e58980, #e58980);
-    padding: 20px 0;
     background-size: 100% 4px;
 }
 
@@ -589,7 +586,7 @@ img {
 }
 
 :focus {
-    outline: #811d15 dotted 3px!important;
+    outline: #808080 dotted 3px!important;
 }
 
 *,
@@ -760,7 +757,7 @@ img {
 }
 
 :focus {
-    outline: #811d15 dotted 3px!important;
+    outline: #808080 dotted 3px!important;
 }
 
 *,
