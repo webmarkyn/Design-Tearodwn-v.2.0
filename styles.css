@@ -146,7 +146,7 @@ table {
 header {
     width: 100%;
     height: 150px;
-    background: #d33a2c;
+    background: #808080;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -363,7 +363,7 @@ h2 {
 
 .btn--white {
     background: #fff;
-    color: #267dcc;
+    color: #808080;
     border: 1px solid #fff;
     text-shadow: none;
 }
@@ -418,7 +418,7 @@ a.btn--white {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #d33a2c;
+    background-color: #808080;
     border-radius: 0;
     color: #fff;
     padding: 2.5em 3.5em;
@@ -487,7 +487,6 @@ a.btn--white {
     background-size: 100% 1.5px;
     background-position: center bottom 29%;
     background-origin: padding-box;
-    text-shadow: 3px 0 #d33a2c, 2px 0 #d33a2c, 1px 0 #d33a2c, -1px 0 #d33a2c, -2px 0 #d33a2c, -3px 0 #d33a2c!important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e58980), to(#e58980));
     background-image: linear-gradient(#e58980, #e58980);
     padding: 20px 0;
@@ -525,7 +524,6 @@ a.btn--white {
     height: 90%;
     width: 160%;
     position: absolute;
-    background-image: url(https://d33wubrfki0l68.cloudfront.net/10f9f40f8856e393ab4525a46bd8e60af9580324/0ab7a/images/shadow.png);
     background-size: 100%;
     background-repeat: no-repeat;
     top: 89%;
@@ -633,7 +631,7 @@ a {
     background-position: center bottom 29%;
     background-origin: padding-box;
     text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
-    color: #006fc6;
+    color: #808080;
 }
 
 h2 {
@@ -657,7 +655,7 @@ h2 {
     border: none;
     font-weight: 700;
     background: 0 0;
-    background-color: #d33a2c;
+    background-color: #808080;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f88040), to(#d33a2c));
     background-image: linear-gradient(to bottom, #f88040, #d33a2c);
     font-size: .9em;
@@ -689,7 +687,6 @@ img::before {
 }
 
 img::after {
-    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJtYXJnaW4tcmlnaHQ6MTBweCI+PHBhdGggZmlsbD0iIzc3NyIgZD0iTTI2IDI4SDZ2LTRsNi0xMCA4LjIxOSAxMEwyNiAyMHY4eiIvPjxwYXRoIGZpbGw9IiM3NzciIGQ9Ik0yNiAxNWMwIDEuNjU3LTEuMzQzIDMtMyAzcy0zLTEuMzQzLTMtMyAxLjM0My0zIDMtM2MxLjY1Ny4wIDMgMS4zNDMgMyAzeiIvPjxwYXRoIGZpbGw9IiM3NzciIGQ9Ik0yOC42ODEgNy4xNTljLS42OTQtLjk0Ny0xLjY2Mi0yLjA1My0yLjcyNC0zLjExNnMtMi4xNjktMi4wMy0zLjExNi0yLjcyNGMtMS42MTItMS4xODItMi4zOTMtMS4zMTktMi44NDEtMS4zMTlINC41Yy0xLjM3OC4wLTIuNSAxLjEyMS0yLjUgMi41djI3QzIgMzAuODc4IDMuMTIyIDMyIDQuNSAzMmgyM2MxLjM3OC4wIDIuNS0xLjEyMiAyLjUtMi41VjEwYzAtLjQ0OC0uMTM3LTEuMjMtMS4zMTktMi44NDF6TTI0LjU0MyA1LjQ1N2MuOTU5Ljk1OSAxLjcxMiAxLjgyNSAyLjI2OCAyLjU0M0gyMlYzLjE4OWMuNzE4LjU1NiAxLjU4NCAxLjMwOSAyLjU0MyAyLjI2OHpNMjggMjkuNWMwIC4yNzEtLjIyOS41LS41LjVoLTIzYy0uMjcxLjAtLjUtLjIyOS0uNS0uNXYtMjdjMC0uMjcxLjIyOS0uNS41LS41LjAuMCAxNS40OTkuMCAxNS41LjB2N2MwIC41NTIuNDQ4IDEgMSAxaDd2MTkuNXoiLz48L3N2Zz4=) " " attr(alt);
     font-size: .8em;
     display: block;
     color: #666;
