@@ -335,7 +335,7 @@ header nav .nav-list {
   margin-bottom: 25px;
 }
 
-/*Section*/
+/* Section */
 
 section {
   display: block;
@@ -399,6 +399,7 @@ a.btn--white {
   .feature-panel::before {
     width: 73%;
   }
+
   .feature-panel {
     padding: 2.5em 3.5em;
   }
@@ -452,6 +453,7 @@ a.btn--white {
     flex-basis: 65%;
     padding: 0 1em;
   }
+
   .feature-panel-right-col {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
@@ -476,13 +478,14 @@ a.btn--white {
   color: #fff;
   text-decoration: none;
   background-image: none;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fff),
-    to(#fff)
-  );
+  background-image:
+    -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#fff),
+      to(#fff)
+    );
   background-image: linear-gradient(#fff, #fff);
   background-repeat: no-repeat;
   background-size: 100% 1.5px;
@@ -501,11 +504,6 @@ a.btn--white {
 
 .feature-panel-description > :last-child {
   margin-bottom: 0;
-}
-
-.feature-panel a:not(.btn):not(.toolbar-item) {
-  text-shadow: 3px 0 #f6f6f6, 2px 0 #f6f6f6, 1px 0 #f6f6f6, -1px 0 #f6f6f6,
-    -2px 0 #f6f6f6, -3px 0 #f6f6f6;
 }
 
 .feature-panel-image-link {
@@ -544,6 +542,7 @@ a.btn--white {
     top: -160px;
     right: 0;
   }
+
   .feature-panel--breakout-small .feature-panel-image-link {
     top: -100px;
   }
@@ -623,19 +622,25 @@ strong {
 a {
   text-decoration: none;
   padding: 10px 0;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(currentColor),
-    to(currentColor)
-  );
+  background-image:
+    -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(currentColor),
+      to(currentColor)
+    );
   background-image: linear-gradient(currentColor, currentColor);
   background-repeat: no-repeat;
   background-size: 100% 1.5px;
   background-position: center bottom 29%;
   background-origin: padding-box;
-  text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff,
+  text-shadow:
+    3px 0 #fff,
+    2px 0 #fff,
+    1px 0 #fff,
+    -1px 0 #fff,
+    -2px 0 #fff,
     -3px 0 #fff;
   color: #808080;
 }
@@ -643,9 +648,6 @@ a {
 h2 {
   font-size: calc(1.375rem + 1.6vw);
   margin: 0;
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
-    Cantarell, Georgia, serif;
 }
 
 @media all and (min-width: 1550px) {
@@ -664,19 +666,17 @@ h2 {
   font-weight: 700;
   background: 0 0;
   background-color: #808080;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f88040),
-    to(#d33a2c)
-  );
+  background-image:
+    gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#f88040),
+      to(#d33a2c)
+    );
   background-image: linear-gradient(to bottom, #f88040, #d33a2c);
   font-size: 0.9em;
   outline: 0;
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
-    Cantarell, Georgia, serif;
 }
 
 .btn.btn--large {
@@ -812,8 +812,8 @@ figure {
   padding: 0;
 }
 
-figure:after,
-figure:before {
+figure::after,
+figure::before {
   content: " ";
   display: table;
   clear: both;
@@ -826,7 +826,12 @@ a {
   background-size: 100% 1.5px;
   background-position: center bottom 29%;
   background-origin: padding-box;
-  text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff,
+  text-shadow:
+    3px 0 #fff,
+    2px 0 #fff,
+    1px 0 #fff,
+    -1px 0 #fff,
+    -2px 0 #fff,
     -3px 0 #fff;
   color: #808080;
 }
@@ -845,6 +850,7 @@ h2 {
   h1 {
     font-size: 2.13894em;
   }
+
   h2 {
     font-size: 2.14857em;
   }
@@ -942,6 +948,7 @@ img::after {
     left: 50%;
     margin-left: -150px;
   }
+
   .enhanced .featured-articles__teaser {
     left: 0;
     margin-left: 0;
@@ -980,8 +987,8 @@ img::after {
   flex-direction: column;
 }
 
-.featured-article:after,
-.featured-article:before {
+.featured-article::after,
+.featured-article::before {
   content: " ";
   display: table;
   clear: both;
@@ -999,6 +1006,7 @@ img::after {
     top: 1em;
     margin-top: 20px;
   }
+
   .featured-article {
     padding: 3em 5vw 4em;
   }
@@ -1014,9 +1022,6 @@ img::after {
 @media all and (max-width: 767px) {
   .featured-article {
     min-width: 100%;
-  }
-  .featured-article:nth-of-type(2) {
-    padding-top: 3em;
   }
 }
 
@@ -1051,9 +1056,6 @@ img::after {
 @media all and (min-width: 1920px) {
   .featured-article {
     width: 33.33%;
-  }
-  .featured-article:nth-of-type(3n + 3) {
-    display: none;
   }
 }
 
